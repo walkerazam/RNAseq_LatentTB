@@ -14,6 +14,8 @@ The dataset is from the GEO database, hosted by the NCBI, from a study by Burel 
 
 ### Methodology
 
+![Methodology Overview](visualizations/Methodology.png)
+
 1. Bulk RNA-Seq - Gene Filtering (Mean-Variance Thresholding), Normalization (PyDESeq2: Median of Ratios), Log Fold Change Cut off and BH-Adjusted P-Values
 2. ShinyGO - Finding Enriched KEGG pathways for Differentially Expressed Genes
 3. PCA - Finding top genes associated with Principal Components
